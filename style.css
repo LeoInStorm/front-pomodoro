@@ -8,7 +8,6 @@
 .texto-vermelho {
     color: #bb262d;
     padding-left: 3px;
-
 }
 
 main {
@@ -54,7 +53,10 @@ main {
 }
 
 .container_timer{
+    display: flex;
     font-size: 150px;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .btn-start{
@@ -108,4 +110,20 @@ main {
 .btn_adicionar{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.cotainer_resultados{
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 21px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 160%;
+    padding: 24px;
+    width: 635.82px;
+    margin: 5% 50%;
+    white-space: pre;
 }
