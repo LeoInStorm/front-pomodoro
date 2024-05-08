@@ -17,4 +17,4 @@ Versão do código: 3.0
 
 ## ✒️ Autores
 
-* **Leonardo Camporesi** - *Desenvolvedor da página* - [Leonardo Camporesi](https://github.com/linkParaPerfil)
+* **Leonardo Camporesi** - *Desenvolvedor da página* - [Leonardo Camporesi]([https://github.com/linkParaPerfil](https://github.com/LeoInStorm))
