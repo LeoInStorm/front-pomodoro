@@ -27,44 +27,42 @@
 
     <main id ="main">
         <div class="container">
-            <div class="text-center">
                 <div class="container_informacao">
-                    <h1 class="container_titulo">Pomodoro <span class="texto-vermelho">Timer</span></h1>
-                    <div class="container_escolha">
+                    <h1 class="container_informacao_titulo">Pomodoro <span class="texto-vermelho">Timer</span></h1>
+                    <div class="container_informacao_3botoes">
                         <div class="btn-group btn-group-lg" role="group" aria-label="Basic outlined example">
                             <button onclick="pomodoro()" type="button" id="button_pomodoro" class="btn btn-outline-danger" data-bs-toggle="button">Pomodoro</button>
                             <button onclick="pausa()" type="button" id="button_pausa" class="btn btn-outline-danger" data-bs-toggle="button">Pausa</button>
                             <button onclick="descanso()" type="button" id="button_descanso" class="btn btn-outline-danger" data-bs-toggle="button">Descanso</button>
                         </div>
                     </div>
-                    <div class="container_timer">
+                    <div class="container_informacao_timer">
                         <p id="minutos">25</p>
                         <p class=>:</p>
                         <p id="segundos">00</p>
                     </div>
                     <button onclick="start()" type="button"
-                       id="button_start" class="btn btn-outline-danger btn-lg btn-start">Start</button>
+                       id="button_start" class="btn btn-outline-danger btn-lg container_informacao_botao_start">Start</button>
                 </div>
                 <div class="container_task">
-                    <div class="container_campo">
-                        <label class="texto_padrao" for="tarefa">Tarefa</label>
-                        <input class="container_input" id="tarefa" type="text" placeholder="digite sua tarefa" maxlength="50">
+                    <div class="container_task_label">
+                        <label for="tarefa">Tarefa</label>
+                        <input class="container__task_label_input" id="tarefa" type="text" placeholder="digite sua tarefa" maxlength="50">
                     </div>
 
-                    <div class="btn_adicionar">
+                    <div class="container_task_botoes">
                         <button onclick="adicionar()" type="button" class="btn btn-outline-danger">Adicionar</button>
                         <button onclick="remover()" id="button_remover" type="button" class="btn btn-outline-danger">Remover</button>
                     </div>
-                    <p class="texto_padrao">Tarefas adicionadas:</p>
                 </div>
-                <div class="texto_padrao cotainer_resultados">
+                <p>Tarefas adicionadas:</p>
+                <div class="cotainer_resultados">
                     <p id="resultado"></p>
                 </div>
-            </div>
         </div>
     </main>
     <footer class="text-center bg-black text-bg-white">
-        <p class="card-text py-3">Copyright <i class="bi bi-c-circle"></i> 2024 Leonardo Camporesi, feito com carinho!
+        <p class="card-text py-3">Copyright <i class="bi bi-c-circle"></i> 2024 Leonardo Camporesi.
         </p>
     </footer>
     <script src="app.js" defer></script>

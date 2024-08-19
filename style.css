@@ -5,100 +5,87 @@
     color: white;
 }
 
+
 .texto-vermelho {
     color: #bb262d;
-    padding-left: 3px;
+    padding-left: 0.3vw;
 }
 
 main {
+    margin: 0;
     background: linear-gradient(#f73737 0%, #f86b6b 33.33%, #fcb3b3 66.67%, #fae0e0 100%);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    font-size: 2vw;
 }
-
 
 .container {
     display: flex;
-    flex: 1;
-    align-items: baseline;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     min-height: 100vh;
     background-size: 100% 100%;
+    margin: 0vw;
+    padding-top: 2vw;
 }
 
 .container_informacao {
     display: block;
     flex-direction: column;
-    width: 110%;
-    height: 100%;
+    width: 30vw;
     border: 1px solid #ffffff;
     position: relative;
     overflow: visible;
-    margin: 5% 45%;
     text-align: center;
 }
 
-.container_titulo {
-    font-size: 75px;
+.container_informacao_titulo {
+    font-size: 3vw;
 }
 
-.container_escolha{
-
+.container_informacao_3botoes{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 25px;
+    margin-top: 1.5vw;
 }
 
-.container_timer{
+.container_informacao_timer{
     display: flex;
-    font-size: 150px;
+    font-size: 7vw;
     flex-direction: row;
     justify-content: center;
 }
 
-.btn-start{
-    margin-bottom: 10px;
-    width: 150px;
+.container_informacao_botao_start{
+    margin-bottom: 0.8vw;
+    width: 7vw;
 }
 
 .container_task{
     display: block;
-    flex-direction: column;
-    width: 100%;
-    min-height: 100%;
-    align-items: center;
-    position: relative;
-    margin: 5% 50%;
+    width: 30vw;
+    padding-top: 1vw;
 }
 
-.container_campo{
+.container_task_label{
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 1vw;
     align-items: center;
 }
 
-.texto_padrao{
-    font-size: 30px;
-}
-
-
-.container_input{
-    font-size: 20px;
+.container__task_label_input{
+    font-size: 1vw;
     width: 100%;
+    margin-top: 0.5vw;
     border-style: none none solid none;
     border-width: 3px;
     color: #000;
     background-color: #fcb3b3;
 
 }
-
-.container_input::after{
-    font-size: 20px;
+.container__task_label_input::after{
+    font-size: 1vw;
     width: 100%;
     border-style: none none solid none;
     border-width: 3px;
@@ -108,9 +95,11 @@ main {
 
 }
 
-.btn_adicionar{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.container_task_botoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
 }
 
 .cotainer_resultados{
@@ -119,14 +108,12 @@ main {
     border-radius: 8px;
     color: #fff;
     display: flex;
-    font-size: 21px;
+    font-size: 1vw;
     font-weight: 400;
     justify-content: center;
     line-height: 160%;
-    padding: 24px;
-    width: 635.82px;
-    min-height: auto;
-    margin: 5% 50%;
+    padding: 1.5vw;
+    width: 30vw;
     white-space: pre;
     position: relative;
  
