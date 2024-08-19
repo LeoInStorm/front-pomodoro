@@ -30,10 +30,10 @@
                 <div class="container_informacao">
                     <h1 class="container_informacao_titulo">Pomodoro <span class="texto-vermelho">Timer</span></h1>
                     <div class="container_informacao_3botoes">
-                        <div class="btn-group btn-group-lg" role="group" aria-label="Basic outlined example">
-                            <button onclick="pomodoro()" type="button" id="button_pomodoro" class="btn btn-outline-danger" data-bs-toggle="button">Pomodoro</button>
-                            <button onclick="pausa()" type="button" id="button_pausa" class="btn btn-outline-danger" data-bs-toggle="button">Pausa</button>
-                            <button onclick="descanso()" type="button" id="button_descanso" class="btn btn-outline-danger" data-bs-toggle="button">Descanso</button>
+                        <div class="btn-group" role="group" aria-label="Basic outlined example">
+                            <button onclick="pomodoro()" type="button" id="button_pomodoro" class="btn btn-outline-danger btn-default" data-bs-toggle="button">Pomodoro</button>
+                            <button onclick="pausa()" type="button" id="button_pausa" class="btn  btn-outline-danger btn-default" data-bs-toggle="button">Pausa</button>
+                            <button onclick="descanso()" type="button" id="button_descanso" class="btn btn-outline-danger btn-default" data-bs-toggle="button">Descanso</button>
                         </div>
                     </div>
                     <div class="container_informacao_timer">
@@ -42,7 +42,7 @@
                         <p id="segundos">00</p>
                     </div>
                     <button onclick="start()" type="button"
-                       id="button_start" class="btn btn-outline-danger btn-lg container_informacao_botao_start">Start</button>
+                       id="button_start" class="btn btn-outline-danger btn-default container_informacao_botao_start">Start</button>
                 </div>
                 <div class="container_task">
                     <div class="container_task_label">
@@ -51,8 +51,8 @@
                     </div>
 
                     <div class="container_task_botoes">
-                        <button onclick="adicionar()" type="button" class="btn btn-outline-danger">Adicionar</button>
-                        <button onclick="remover()" id="button_remover" type="button" class="btn btn-outline-danger">Remover</button>
+                        <button onclick="adicionar()" type="button" class="btn btn-outline-danger btn-default">Adicionar</button>
+                        <button onclick="remover()" id="button_remover" type="button" class="btn btn-outline-danger btn-default">Remover</button>
                     </div>
                 </div>
                 <p>Tarefas adicionadas:</p>
