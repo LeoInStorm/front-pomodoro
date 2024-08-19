@@ -1,7 +1,7 @@
 # Pomodoro Timer
 
 Método Pomodoro é um método de gerenciamento de tempo baseado em períodos de 25 minutos (pomodoros) de estudo ou trabalho focado, interrompidos por intervalos de 5 minutos. Após quatro intervalos de estudo consecutivos, são geralmente feitos intervalos mais longos, de duração de 15min.
-
+Link do projeto: https://front-pomodoro.vercel.app
 ## 🛠️ Construído com
 
 Ferramentas:
